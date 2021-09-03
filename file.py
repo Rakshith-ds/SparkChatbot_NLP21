@@ -30,3 +30,4 @@ xs = [x[0] for x in top10]
 ys = [x[1] for x in top10]
 plt.title("frequency")
 plt.plot(xs, ys)
+plt.bar(xs, ys)
